@@ -1,0 +1,198 @@
+.middleHomeSide{
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 0px 50px ;
+    box-sizing: border-box;
+     display: block; 
+    /* I have changed display as block and in video its flex */
+    /* display: block; */
+    align-items: center;
+    justify-content: center;
+}
+.storyBlock{
+    width: 630px;
+    /* border: 1px solid; */
+    height: 120px;
+    display: flex;
+    gap: 17px;
+    /* border: 1px solid; */
+    align-items: center;
+    overflow-x: auto;
+}
+.storyBlock::-webkit-scrollbar{
+    display: none;
+}
+
+.storyParticular{
+    width: 66px;
+    height: 66px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imageDiv{
+    width: 56px;
+    height: 56px;
+    border-radius:100%;
+    padding: 2px;
+    border: 2px solid purple;
+}
+
+.statusImg{
+    width: 100%;
+    height: 56px;
+    border-radius: 100%;
+}
+.profileName{
+    font-size: 10px;
+}
+
+/* .............. */
+.postSection{
+    /* border: 1px solid; */
+    width: 60%;
+}
+
+.post{
+    width: 100%;
+    border-bottom:1px solid #999999 ;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.postInfo{
+    width:100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+.postInfoImg{
+    width: 40px;
+    border-radius: 100%;
+    /* display: flex; */
+}
+.postInfoImg1{
+    width: 40px;
+    border-radius: 100%;
+    /* display: flex; */
+}
+.postInfousername{
+    font-size: 12px;
+    font-weight: 600;
+}
+.timingInfo{
+    color:#999999; 
+    font-size:14px ;
+}
+
+.postImage{
+    width: 100%;
+}
+.postImage1{
+    width: 100%;
+}
+
+
+.iconsBlock{
+    width:100%;
+    padding: 5px 0;
+     display: flex;
+    justify-content: space-between;
+}
+
+.leftIcon{
+    display: flex;
+    gap: 15px;
+}
+.likeImg{
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 5px;
+}
+.likeImg1{
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 5px;
+}
+.imagesLike{
+   position: relative; 
+}
+
+.likesection{
+    width: 100%;
+}
+
+.likeImg2{
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 3%;
+    margin-top: 5px;
+    
+}
+.likeImg3{
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+    left: 3%;
+    margin-top: 5px;
+    
+}
+
+.noofLikes{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 37px;
+}
+.postAbout{
+width: 100%;
+display: flex;
+}
+.postAboutName{
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.infoComment{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.noofComment{
+    color: #999999;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.addComment{
+    color: #999999;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+@media  screen and (min-width:320px) and (max-width:920px) {
+
+    .middleHomeSide{
+        width: 100%;
+        /* border: 1px solid; */
+        padding: 0px 1px ;
+        box-sizing: border-box;
+         /* display: flex;  */
+        /* I have changed display as block and in video its flex */
+        /* display: block; */
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .storyBlock{
+        width: 100%;
+
+}
+.postSection{
+    width: 100%;
+
+}
+}
